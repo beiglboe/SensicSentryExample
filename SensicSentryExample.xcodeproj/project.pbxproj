@@ -13,6 +13,7 @@
 		B3902AFE2C2D847B0032F3B1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B3902AFD2C2D847B0032F3B1 /* Base */; };
 		B3902B002C2D847C0032F3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3902AFF2C2D847C0032F3B1 /* Assets.xcassets */; };
 		B3902B032C2D847C0032F3B1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B3902B022C2D847C0032F3B1 /* Base */; };
+		B3902B0B2C2D85E20032F3B1 /* s2s_sdk_ios_agent_only.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3902B0A2C2D85E20032F3B1 /* s2s_sdk_ios_agent_only.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B3902AFF2C2D847C0032F3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3902B022C2D847C0032F3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3902B042C2D847C0032F3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3902B0A2C2D85E20032F3B1 /* s2s_sdk_ios_agent_only.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = s2s_sdk_ios_agent_only.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3902B0B2C2D85E20032F3B1 /* s2s_sdk_ios_agent_only.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 		B3902AEA2C2D847B0032F3B1 = {
 			isa = PBXGroup;
 			children = (
+				B3902B0A2C2D85E20032F3B1 /* s2s_sdk_ios_agent_only.xcframework */,
 				B3902AF52C2D847B0032F3B1 /* SensicSentryExample */,
 				B3902AF42C2D847B0032F3B1 /* Products */,
 			);
