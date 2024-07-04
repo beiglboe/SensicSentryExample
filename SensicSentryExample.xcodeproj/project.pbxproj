@@ -13,6 +13,8 @@
 		B3902AFE2C2D847B0032F3B1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B3902AFD2C2D847B0032F3B1 /* Base */; };
 		B3902B002C2D847C0032F3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3902AFF2C2D847C0032F3B1 /* Assets.xcassets */; };
 		B3902B032C2D847C0032F3B1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B3902B022C2D847C0032F3B1 /* Base */; };
+		B3A2D5062C36F24800A95999 /* BitmovinPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = B3A2D5052C36F24800A95999 /* BitmovinPlayer */; };
+		B3A2D5072C36F2BF00A95999 /* s2s_sdk_ios_bitmovin.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A2D5022C36F1DF00A95999 /* s2s_sdk_ios_bitmovin.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		B3902AFF2C2D847C0032F3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3902B022C2D847C0032F3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3902B042C2D847C0032F3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A2D5022C36F1DF00A95999 /* s2s_sdk_ios_bitmovin.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = s2s_sdk_ios_bitmovin.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A2D5072C36F2BF00A95999 /* s2s_sdk_ios_bitmovin.xcframework in Frameworks */,
+				B3A2D5062C36F24800A95999 /* BitmovinPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 		B3902AEA2C2D847B0032F3B1 = {
 			isa = PBXGroup;
 			children = (
+				B3A2D5022C36F1DF00A95999 /* s2s_sdk_ios_bitmovin.xcframework */,
 				B3902AF52C2D847B0032F3B1 /* SensicSentryExample */,
 				B3902AF42C2D847B0032F3B1 /* Products */,
 			);
@@ -83,6 +89,9 @@
 			dependencies = (
 			);
 			name = SensicSentryExample;
+			packageProductDependencies = (
+				B3A2D5052C36F24800A95999 /* BitmovinPlayer */,
+			);
 			productName = SensicSentryExample;
 			productReference = B3902AF32C2D847B0032F3B1 /* SensicSentryExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +120,9 @@
 				Base,
 			);
 			mainGroup = B3902AEA2C2D847B0032F3B1;
+			packageReferences = (
+				B3A2D5042C36F24800A95999 /* XCRemoteSwiftPackageReference "player-ios" */,
+			);
 			productRefGroup = B3902AF42C2D847B0032F3B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -363,6 +375,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B3A2D5042C36F24800A95999 /* XCRemoteSwiftPackageReference "player-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bitmovin/player-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.63.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B3A2D5052C36F24800A95999 /* BitmovinPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3A2D5042C36F24800A95999 /* XCRemoteSwiftPackageReference "player-ios" */;
+			productName = BitmovinPlayer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B3902AEB2C2D847B0032F3B1 /* Project object */;
 }
