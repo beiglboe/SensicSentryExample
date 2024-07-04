@@ -13,9 +13,26 @@
 		B3902AFE2C2D847B0032F3B1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B3902AFD2C2D847B0032F3B1 /* Base */; };
 		B3902B002C2D847C0032F3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3902AFF2C2D847C0032F3B1 /* Assets.xcassets */; };
 		B3902B032C2D847C0032F3B1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B3902B022C2D847C0032F3B1 /* Base */; };
-		B3902B0B2C2D85E20032F3B1 /* s2s_sdk_ios_agent_only.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3902B0A2C2D85E20032F3B1 /* s2s_sdk_ios_agent_only.xcframework */; };
-		B3A2D4EF2C36DA1B00A95999 /* Sentry.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A2D4EA2C36D9A600A95999 /* Sentry.xcframework */; };
+		B3A2D4FD2C36DD1600A95999 /* s2s_sdk_ios_agent_only.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3902B0A2C2D85E20032F3B1 /* s2s_sdk_ios_agent_only.xcframework */; };
+		B3A2D4FE2C36DD1600A95999 /* s2s_sdk_ios_agent_only.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B3902B0A2C2D85E20032F3B1 /* s2s_sdk_ios_agent_only.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B3A2D5002C36DD2F00A95999 /* Sentry.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A2D4EA2C36D9A600A95999 /* Sentry.xcframework */; };
+		B3A2D5012C36DD2F00A95999 /* Sentry.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B3A2D4EA2C36D9A600A95999 /* Sentry.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3A2D4FF2C36DD1600A95999 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B3A2D5012C36DD2F00A95999 /* Sentry.xcframework in Embed Frameworks */,
+				B3A2D4FE2C36DD1600A95999 /* s2s_sdk_ios_agent_only.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B3902AF32C2D847B0032F3B1 /* SensicSentryExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensicSentryExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,8 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A2D4EF2C36DA1B00A95999 /* Sentry.xcframework in Frameworks */,
-				B3902B0B2C2D85E20032F3B1 /* s2s_sdk_ios_agent_only.xcframework in Frameworks */,
+				B3A2D5002C36DD2F00A95999 /* Sentry.xcframework in Frameworks */,
+				B3A2D4FD2C36DD1600A95999 /* s2s_sdk_ios_agent_only.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,7 @@
 				B3902AEF2C2D847B0032F3B1 /* Sources */,
 				B3902AF02C2D847B0032F3B1 /* Frameworks */,
 				B3902AF12C2D847B0032F3B1 /* Resources */,
+				B3A2D4FF2C36DD1600A95999 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
