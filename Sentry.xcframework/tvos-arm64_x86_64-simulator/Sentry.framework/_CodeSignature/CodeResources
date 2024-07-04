@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Sentry-Swift.h</key>
 		<data>
-		NgpsEj+1TU4xDCRfKUo5maO8S6c=
+		TzqQil6UlRaAM5xswm2vZTfcsfc=
 		</data>
 		<key>Headers/Sentry.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/SentryDefines.h</key>
 		<data>
-		a+fWNAtn5Bb3RlI90ywqk5JbN5M=
+		uyS/c6ZlBLCrCeUUMPl84QzV1m8=
 		</data>
 		<key>Headers/SentryDsn.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/SentryEvent.h</key>
 		<data>
-		jZ7SDGOR4RWcsSNwja1EFYqv6SM=
+		xU60RzUn0BCBh243gWBsztc69ZU=
 		</data>
 		<key>Headers/SentryException.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/SentryHub.h</key>
 		<data>
-		QETGk3CRimvO5CHyLLLxPdRceoQ=
+		dom9pDqHyiXbQHSqf6Js9TRI4Gg=
 		</data>
 		<key>Headers/SentryMeasurementUnit.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Headers/SentryOptions.h</key>
 		<data>
-		J/Uy6Y8r4zbypYMNvoMOYtHWig8=
+		aeigelMet+MNjGYxjH39rlF0/8c=
 		</data>
 		<key>Headers/SentryProfilingConditionals.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/SentrySDK.h</key>
 		<data>
-		kxwwO1KWey+N0lIhzQOtpDZ6asg=
+		LDK6l55y7kGnUaOyS5muR7ip9vg=
 		</data>
 		<key>Headers/SentrySampleDecision.h</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Headers/SentryScope.h</key>
 		<data>
-		ypTFVmqON63ufsIEqhKRRkbC7MQ=
+		xhFU88fLI/9KKlclK9SoIi7tUDc=
 		</data>
 		<key>Headers/SentrySerializable.h</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Headers/SentryUser.h</key>
 		<data>
-		YGfcpH9CwTp2xqtJGiPN7T3wSWQ=
+		YWQ3k+Mypgk4E8/xkAn19huU5RQ=
 		</data>
 		<key>Headers/SentryUserFeedback.h</key>
 		<data>
@@ -170,47 +170,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rZYD0W/nsUqC84IXa1BIYvokKGQ=
+		kZ2EUkQuBuMbANjNXlEHpjzgyvo=
 		</data>
 		<key>Modules/Sentry.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		CTRtCpfb+g0/2I67O5a1wnRNq/4=
+		Mlmetg0gTPUplrACL680VrAyn2k=
 		</data>
 		<key>Modules/Sentry.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		XoBqjpIb4sWS01Rq5UXYkpGfxh8=
+		qlV9xh2iuBCOFcK8gz/m1WJMAkw=
 		</data>
 		<key>Modules/Sentry.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		n5R0XJnDwlc40acGey2yoe9dyeA=
+		qN9Srf/kYlVKlRsKRxjDQpbCDGI=
 		</data>
 		<key>Modules/Sentry.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		XoBqjpIb4sWS01Rq5UXYkpGfxh8=
+		qlV9xh2iuBCOFcK8gz/m1WJMAkw=
 		</data>
 		<key>Modules/Sentry.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		CuUEy93Q7MgYOSg10d6EMawNO94=
+		2qovuMb80wEQkdtXRJIt6NcrDjg=
 		</data>
 		<key>Modules/Sentry.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		CTRtCpfb+g0/2I67O5a1wnRNq/4=
+		Mlmetg0gTPUplrACL680VrAyn2k=
 		</data>
 		<key>Modules/Sentry.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		HX14HoPH8+2Aq9/0JHkTV4w8GEk=
+		W/D61faDCew4O2gfLNa+ghQhvHY=
 		</data>
 		<key>Modules/Sentry.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		B7Q5hPVTkZMjMSuORJCuuBNftj8=
+		SU/5jjSEit9/cH3f6VeE4C/Sp6k=
 		</data>
 		<key>Modules/Sentry.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		HX14HoPH8+2Aq9/0JHkTV4w8GEk=
+		W/D61faDCew4O2gfLNa+ghQhvHY=
 		</data>
 		<key>Modules/Sentry.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		msKTFFXgVlSVtNJh+aLtUUDgLI0=
+		ZIxhvLwsQLyRUWRCVVnyzIbqW3s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>PrivateHeaders/PrivateSentrySDKOnly.h</key>
 		<data>
-		7NzSHsDBXOiLB1oLPPN1NrNZla4=
+		h4QD7N5vo5smvMIQ2gLBNxDY2DY=
 		</data>
 		<key>PrivateHeaders/PrivatesHeader.h</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>PrivateHeaders/SentryAppStartMeasurement.h</key>
 		<data>
-		LSYS46F9oRJ4AduM3MhwKcOd5lw=
+		5k0DaH6G2IPsp1cae8PStyRgrUw=
 		</data>
 		<key>PrivateHeaders/SentryAsynchronousOperation.h</key>
 		<data>
@@ -258,19 +258,19 @@
 		</data>
 		<key>PrivateHeaders/SentryEnvelope.h</key>
 		<data>
-		wy2/qp1u9Rwzqr1q73fPDEydaeU=
+		lGPWYAV5eSt8lKpz3d+uzJE6AC4=
 		</data>
 		<key>PrivateHeaders/SentryEnvelopeItemType.h</key>
 		<data>
-		jUUjJkfqi/YlwhJ4EiWqj7YCnV8=
+		NCCYHd+BqvNQ07XxHjGoQwJ83mo=
 		</data>
 		<key>PrivateHeaders/SentryLog.h</key>
 		<data>
-		Mfi93JSI/zsNdRm92QB0ei2Ze2s=
+		Syh6fqsC76B3CAMlIp+xo84HdWw=
 		</data>
 		<key>PrivateHeaders/SentryNSDataUtils.h</key>
 		<data>
-		sQHjb3wv7Xmrwn75zk4cqBJDtCw=
+		XGhfrAid5NbccQTgbdFAHs8JlR4=
 		</data>
 		<key>PrivateHeaders/SentryNSDictionarySanitize.h</key>
 		<data>
@@ -280,9 +280,17 @@
 		<data>
 		GRf/5Z84QZXLzOxqh6h6vl9nGVY=
 		</data>
+		<key>PrivateHeaders/SentryOptions+Private.h</key>
+		<data>
+		nF9AZjwjvGR55BISmaNx9rCA0SI=
+		</data>
 		<key>PrivateHeaders/SentryRequestOperation.h</key>
 		<data>
 		O5wPDc/pu5DcWckHCCqaLdtxa9Q=
+		</data>
+		<key>PrivateHeaders/SentrySDK+Private.h</key>
+		<data>
+		yQS9M4t7JfobJIkydv21C+2VbpI=
 		</data>
 		<key>PrivateHeaders/SentryScreenFrames.h</key>
 		<data>
@@ -298,7 +306,7 @@
 		</data>
 		<key>PrivateHeaders/SentryTraceContext.h</key>
 		<data>
-		Ouy+xzrV79Lo8zJgm/CKS1/GVtw=
+		YyaTW3Lbjh09calB7WENZP8N1zs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -307,11 +315,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NgpsEj+1TU4xDCRfKUo5maO8S6c=
+			TzqQil6UlRaAM5xswm2vZTfcsfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			SFxn1BASKlUtnNHMPsf1j/ahy5/do3H0yxDBgL5mIBU=
+			4YYSCYva8eLCbwK5YMuJ0mMJr8FNB6SJHCy05to0vzU=
 			</data>
 		</dict>
 		<key>Headers/Sentry.h</key>
@@ -395,11 +403,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a+fWNAtn5Bb3RlI90ywqk5JbN5M=
+			uyS/c6ZlBLCrCeUUMPl84QzV1m8=
 			</data>
 			<key>hash2</key>
 			<data>
-			r4ZussvRJixXh8usM1HBaxHwg7t73YXkHsSYfrygcgs=
+			RQvhSK95564421V5HdK8QBYVLhBNnHN+pAf07ZBErQc=
 			</data>
 		</dict>
 		<key>Headers/SentryDsn.h</key>
@@ -439,11 +447,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jZ7SDGOR4RWcsSNwja1EFYqv6SM=
+			xU60RzUn0BCBh243gWBsztc69ZU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wOEswEJrSYRxFfbKcacAUYQIjWGZrC2FHzept5Spyr4=
+			5AcfJUZUulo14it0pdq4Rh0ZoXoaPbtVEMdGFBR6I30=
 			</data>
 		</dict>
 		<key>Headers/SentryException.h</key>
@@ -494,11 +502,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QETGk3CRimvO5CHyLLLxPdRceoQ=
+			dom9pDqHyiXbQHSqf6Js9TRI4Gg=
 			</data>
 			<key>hash2</key>
 			<data>
-			20KfltzCpfNi+shv/k/DpFeBaY26IkN8w6CNEe4wPbo=
+			HhEwwUoj9AUIxJCSp7seZf1LKoEvHmGkkoVqXF5Los0=
 			</data>
 		</dict>
 		<key>Headers/SentryMeasurementUnit.h</key>
@@ -560,11 +568,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J/Uy6Y8r4zbypYMNvoMOYtHWig8=
+			aeigelMet+MNjGYxjH39rlF0/8c=
 			</data>
 			<key>hash2</key>
 			<data>
-			BS+dv3rk94oI19BGSQkA2CebmqREyoVP9jKfTip4Ssw=
+			aN/yhaCKdH7nqpqS3or1zwkD8YiViumokmPY10ZJT1E=
 			</data>
 		</dict>
 		<key>Headers/SentryProfilingConditionals.h</key>
@@ -593,11 +601,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kxwwO1KWey+N0lIhzQOtpDZ6asg=
+			LDK6l55y7kGnUaOyS5muR7ip9vg=
 			</data>
 			<key>hash2</key>
 			<data>
-			3iYf6b4zYP9Qf4AFLe14pRxLLtUBQm1pM0O1W7cMzdc=
+			/oIrpjeURyEd4/cJHKACP+5hCaP4o9fdi2jCLuwCfMw=
 			</data>
 		</dict>
 		<key>Headers/SentrySampleDecision.h</key>
@@ -626,11 +634,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ypTFVmqON63ufsIEqhKRRkbC7MQ=
+			xhFU88fLI/9KKlclK9SoIi7tUDc=
 			</data>
 			<key>hash2</key>
 			<data>
-			CxiLiCW4OOQ7l8uHOtEcBeyBFuGj6pXI3lZmIY98YvA=
+			ywl2Kem3sRhWEENyWLbKD2y5KER2BYytbvalC29fQZc=
 			</data>
 		</dict>
 		<key>Headers/SentrySerializable.h</key>
@@ -736,11 +744,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YGfcpH9CwTp2xqtJGiPN7T3wSWQ=
+			YWQ3k+Mypgk4E8/xkAn19huU5RQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			cLasF3imWA43Qn6JvHNiR7l4KJvl/L4F+QHn9LDa7LM=
+			+5uNkNuQZV187RKdAOqNK4RErw4Om+vcNTGAr1nJMhs=
 			</data>
 		</dict>
 		<key>Headers/SentryUserFeedback.h</key>
@@ -758,110 +766,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CTRtCpfb+g0/2I67O5a1wnRNq/4=
+			Mlmetg0gTPUplrACL680VrAyn2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			c8UqUF+qPoFPsaHUdBsyecsOw2saXx3XefiMNeaxrns=
+			M8ym8SLuM5xQVhEjoauwvbb9MvUhMKMhDYWGUTRDpEo=
 			</data>
 		</dict>
 		<key>Modules/Sentry.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XoBqjpIb4sWS01Rq5UXYkpGfxh8=
+			qlV9xh2iuBCOFcK8gz/m1WJMAkw=
 			</data>
 			<key>hash2</key>
 			<data>
-			IWb2HcXUBxyo3FLWLFWHxFcrQeLYpJ54OFUWccz6lS4=
+			10PehvoThRxZInnuVyYvTKzQwxedtLTdZJ4q3zDPogg=
 			</data>
 		</dict>
 		<key>Modules/Sentry.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n5R0XJnDwlc40acGey2yoe9dyeA=
+			qN9Srf/kYlVKlRsKRxjDQpbCDGI=
 			</data>
 			<key>hash2</key>
 			<data>
-			r3/SfiN+w9GnWYclvozJ2ZyBlpIZ1bdavhWL/Uh7Sdw=
+			Q80R42nVy5o+EuULmc88WFFLY0K9KrlxNP4iwGhpo1k=
 			</data>
 		</dict>
 		<key>Modules/Sentry.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XoBqjpIb4sWS01Rq5UXYkpGfxh8=
+			qlV9xh2iuBCOFcK8gz/m1WJMAkw=
 			</data>
 			<key>hash2</key>
 			<data>
-			IWb2HcXUBxyo3FLWLFWHxFcrQeLYpJ54OFUWccz6lS4=
+			10PehvoThRxZInnuVyYvTKzQwxedtLTdZJ4q3zDPogg=
 			</data>
 		</dict>
 		<key>Modules/Sentry.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CuUEy93Q7MgYOSg10d6EMawNO94=
+			2qovuMb80wEQkdtXRJIt6NcrDjg=
 			</data>
 			<key>hash2</key>
 			<data>
-			qaBIvThXwhrbUiYbued00dKFX6B4xXTEiBqlCJx13t8=
+			NqGw1AvfP+U3PAZNG0LMq9+aOF6yPEZZoqst2JnuDMI=
 			</data>
 		</dict>
 		<key>Modules/Sentry.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CTRtCpfb+g0/2I67O5a1wnRNq/4=
+			Mlmetg0gTPUplrACL680VrAyn2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			c8UqUF+qPoFPsaHUdBsyecsOw2saXx3XefiMNeaxrns=
+			M8ym8SLuM5xQVhEjoauwvbb9MvUhMKMhDYWGUTRDpEo=
 			</data>
 		</dict>
 		<key>Modules/Sentry.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HX14HoPH8+2Aq9/0JHkTV4w8GEk=
+			W/D61faDCew4O2gfLNa+ghQhvHY=
 			</data>
 			<key>hash2</key>
 			<data>
-			xY1JQkOJ3/87R5JsH/y2Rc1nYa7ke2MLQ38Hl/qTTaI=
+			ig+Qzk0XSQ5BncppmWTaFrEKGqe1I5EJgpOSfD54iT0=
 			</data>
 		</dict>
 		<key>Modules/Sentry.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B7Q5hPVTkZMjMSuORJCuuBNftj8=
+			SU/5jjSEit9/cH3f6VeE4C/Sp6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			VgEj/vypTYfWoWH6BlpD1QA/FZqlxpuzRk3TtjDBJT0=
+			O/+PqZTG2VglfZDo2OGFgtA9Tv0chdwpLFZScoRn1f8=
 			</data>
 		</dict>
 		<key>Modules/Sentry.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HX14HoPH8+2Aq9/0JHkTV4w8GEk=
+			W/D61faDCew4O2gfLNa+ghQhvHY=
 			</data>
 			<key>hash2</key>
 			<data>
-			xY1JQkOJ3/87R5JsH/y2Rc1nYa7ke2MLQ38Hl/qTTaI=
+			ig+Qzk0XSQ5BncppmWTaFrEKGqe1I5EJgpOSfD54iT0=
 			</data>
 		</dict>
 		<key>Modules/Sentry.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			msKTFFXgVlSVtNJh+aLtUUDgLI0=
+			ZIxhvLwsQLyRUWRCVVnyzIbqW3s=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUWo5XhP1SohncpZnpHWGK35opQ6lyVsZOjV9F6cfRM=
+			0Zw8yUrWd7SK1g8UQd9+FNDVdbqX3JrnyBDBsbPZnQ8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -890,11 +898,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7NzSHsDBXOiLB1oLPPN1NrNZla4=
+			h4QD7N5vo5smvMIQ2gLBNxDY2DY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vuzBbOHZUGqE7v7v9EJa8GWZVd9uu2Odg8QVmjiLs/4=
+			GzfyeSpwVuEVqQvYqUDRzf7DzSDiC50n1p0+i3CmZ2k=
 			</data>
 		</dict>
 		<key>PrivateHeaders/PrivatesHeader.h</key>
@@ -912,11 +920,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LSYS46F9oRJ4AduM3MhwKcOd5lw=
+			5k0DaH6G2IPsp1cae8PStyRgrUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			mTLyqwjgplsMxn/zEW+zNp4x9p8yoaTv2nWGEJpCsNc=
+			mJmbjIyKlrwcjVzrslAjbbEDi8W30KQ5YBT0CdKYyHg=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryAsynchronousOperation.h</key>
@@ -989,44 +997,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wy2/qp1u9Rwzqr1q73fPDEydaeU=
+			lGPWYAV5eSt8lKpz3d+uzJE6AC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			lAdGGvKtQFdTzNvh3XwBm8wdxuOdWfh48Z8LyljTxoU=
+			9abLxjYmDMMbbaqrFJT7UcZMbCrGO2Ymo3kttzSrPw4=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryEnvelopeItemType.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jUUjJkfqi/YlwhJ4EiWqj7YCnV8=
+			NCCYHd+BqvNQ07XxHjGoQwJ83mo=
 			</data>
 			<key>hash2</key>
 			<data>
-			RpmqylLFBBIOpbFwVN+ZbZXbNoX7gO6jpFz58y79mNE=
+			9oMQPTgg738wc5Yjxo1gzrrxqLoAa8NfnR3V0dk7PGI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryLog.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mfi93JSI/zsNdRm92QB0ei2Ze2s=
+			Syh6fqsC76B3CAMlIp+xo84HdWw=
 			</data>
 			<key>hash2</key>
 			<data>
-			oRiDTKJdhp7rqiLEjWHYigOjw9urf2w7SO4icy1tch0=
+			L1JvPxahm/5UJGzPOTOK2NznciWH/n2WgPDx2Uyyh+A=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryNSDataUtils.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sQHjb3wv7Xmrwn75zk4cqBJDtCw=
+			XGhfrAid5NbccQTgbdFAHs8JlR4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vt8zF7d2G7lXJhaualfeE7pKLKq8PWT1kyjxuEDo2hI=
+			pWmLLsThJMfISifaU0JFT6BGSAJK7jM0rSEADM7Bjts=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryNSDictionarySanitize.h</key>
@@ -1051,6 +1059,17 @@
 			FAsMofwr/gdU9/UzZw0PPR9H/8VSgYv/GtEb7UMnh50=
 			</data>
 		</dict>
+		<key>PrivateHeaders/SentryOptions+Private.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nF9AZjwjvGR55BISmaNx9rCA0SI=
+			</data>
+			<key>hash2</key>
+			<data>
+			XgkvqUcSRdG900B8bmVlGYO6iaBZGtJZmLvquKR16Qw=
+			</data>
+		</dict>
 		<key>PrivateHeaders/SentryRequestOperation.h</key>
 		<dict>
 			<key>hash</key>
@@ -1060,6 +1079,17 @@
 			<key>hash2</key>
 			<data>
 			h7iaZgLM5K0atvR0yDnQ5b0rbHZEXyKL/DioCMUzxts=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SentrySDK+Private.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yQS9M4t7JfobJIkydv21C+2VbpI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Kvom/ROlo5yAvN0OjXiD20mw2I0FjItBUm5QsI+qpbY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryScreenFrames.h</key>
@@ -1099,11 +1129,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ouy+xzrV79Lo8zJgm/CKS1/GVtw=
+			YyaTW3Lbjh09calB7WENZP8N1zs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fe5jN35RHft4EE4iK2uKDJIk6oKvGtofx0mUCd6JBtk=
+			PIzTC0z/MfMH+1QBWJyRtYUeU6fMjSZ3CF8Ww9x73tY=
 			</data>
 		</dict>
 	</dict>
