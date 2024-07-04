@@ -14,8 +14,23 @@
 		B3902B002C2D847C0032F3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3902AFF2C2D847C0032F3B1 /* Assets.xcassets */; };
 		B3902B032C2D847C0032F3B1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B3902B022C2D847C0032F3B1 /* Base */; };
 		B3A2D5062C36F24800A95999 /* BitmovinPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = B3A2D5052C36F24800A95999 /* BitmovinPlayer */; };
-		B3A2D5072C36F2BF00A95999 /* s2s_sdk_ios_bitmovin.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A2D5022C36F1DF00A95999 /* s2s_sdk_ios_bitmovin.xcframework */; };
+		B3A2D50A2C36F32300A95999 /* s2s_sdk_ios_bitmovin.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A2D5022C36F1DF00A95999 /* s2s_sdk_ios_bitmovin.xcframework */; };
+		B3A2D50B2C36F32300A95999 /* s2s_sdk_ios_bitmovin.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B3A2D5022C36F1DF00A95999 /* s2s_sdk_ios_bitmovin.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3A2D50C2C36F32300A95999 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B3A2D50B2C36F32300A95999 /* s2s_sdk_ios_bitmovin.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B3902AF32C2D847B0032F3B1 /* SensicSentryExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensicSentryExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A2D5072C36F2BF00A95999 /* s2s_sdk_ios_bitmovin.xcframework in Frameworks */,
+				B3A2D50A2C36F32300A95999 /* s2s_sdk_ios_bitmovin.xcframework in Frameworks */,
 				B3A2D5062C36F24800A95999 /* BitmovinPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +98,7 @@
 				B3902AEF2C2D847B0032F3B1 /* Sources */,
 				B3902AF02C2D847B0032F3B1 /* Frameworks */,
 				B3902AF12C2D847B0032F3B1 /* Resources */,
+				B3A2D50C2C36F32300A95999 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
