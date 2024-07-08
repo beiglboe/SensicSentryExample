@@ -1,0 +1,110 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name s2s_sdk_ios_agent_only
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import AdSupport
+import AppTrackingTransparency
+import Darwin
+import Foundation
+import OSLog
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import os
+extension Swift.Array where Element == Swift.UInt8 {
+  public func toHexString() -> Swift.String
+}
+@available(iOS 10.0, *)
+@objc public class S2SConfig : ObjectiveC.NSObject {
+  @objc public init(mediaId: Swift.String, url: Swift.String, optIn: Swift.Bool = true, extId: [Swift.String : Swift.String]? = nil)
+  @objc deinit
+}
+public enum S2SAgentError : Swift.Error {
+  case invalidParam(Swift.String)
+}
+@available(*, deprecated)
+public typealias VideoPositionCallback = () -> Swift.Int64
+public typealias StreamPositionCallback = () -> Swift.Int64
+@objc final public class S2SAgent : ObjectiveC.NSObject {
+  @objc convenience public init(configUrl: Swift.String, mediaId: Swift.String) throws
+  @objc convenience public init(configUrl: Swift.String, mediaId: Swift.String, extId: [Swift.String : Swift.String]) throws
+  @objc convenience public init(configUrl: Swift.String, mediaId: Swift.String, optIn: Swift.Bool) throws
+  @objc convenience public init(configUrl: Swift.String, mediaId: Swift.String, optIn: Swift.Bool, extId: [Swift.String : Swift.String]) throws
+  @objc convenience public init(configUrl: Swift.String, mediaId: Swift.String, streamPositionCallback: @escaping s2s_sdk_ios_agent_only.StreamPositionCallback) throws
+  @objc convenience public init(configUrl: Swift.String, mediaId: Swift.String, extId: [Swift.String : Swift.String], streamPositionCallback: @escaping s2s_sdk_ios_agent_only.StreamPositionCallback) throws
+  @objc convenience public init(configUrl: Swift.String, mediaId: Swift.String, optIn: Swift.Bool, streamPositionCallback: @escaping s2s_sdk_ios_agent_only.StreamPositionCallback) throws
+  public init(configUrl: Swift.String, mediaId: Swift.String, optIn: Swift.Bool?, extId: [Swift.String : Swift.String]?, streamPositionCallback: @escaping s2s_sdk_ios_agent_only.StreamPositionCallback) throws
+  @available(*, deprecated)
+  @objc convenience public init(configUrl: Swift.String, mediaId: Swift.String, videoPositionCallback: @escaping s2s_sdk_ios_agent_only.VideoPositionCallback = { return 0 }) throws
+  @objc final public func flushStorageQueue()
+  @discardableResult
+  @objc final public func impression(contentId: Swift.String, customParams: [Swift.String : Swift.String]? = nil) -> [Swift.String : Swift.Bool]
+  @available(*, deprecated)
+  @discardableResult
+  @objc final public func playVOD(contentId: Swift.String, videoId: Swift.String, screen: Swift.String, volume: Swift.String, customParams: [Swift.String : Swift.String]) -> [Swift.String : Swift.Bool]
+  @discardableResult
+  @objc final public func playStreamOnDemand(contentId: Swift.String, streamId: Swift.String, customParams: [Swift.String : Swift.String]) -> [Swift.String : Swift.Bool]
+  @discardableResult
+  @objc final public func playStreamOnDemand(contentId: Swift.String, streamId: Swift.String, options: [Swift.String : Swift.String], customParams: [Swift.String : Swift.String]) -> [Swift.String : Swift.Bool]
+  @discardableResult
+  @available(*, deprecated)
+  @objc final public func playLive(contentId: Swift.String, contentStart: Swift.String, videoOffset: Swift.Int, videoId: Swift.String, screen: Swift.String, volume: Swift.String, customParams: [Swift.String : Swift.String]) -> [Swift.String : Swift.Bool]
+  @discardableResult
+  @objc final public func playStreamLive(contentId: Swift.String, streamStart: Swift.String, streamOffset: Swift.Int, streamId: Swift.String, customParams: [Swift.String : Swift.String]) -> [Swift.String : Swift.Bool]
+  @discardableResult
+  @objc final public func playStreamLive(contentId: Swift.String, streamStart: Swift.String, streamOffset: Swift.Int, streamId: Swift.String, options: [Swift.String : Swift.String], customParams: [Swift.String : Swift.String]) -> [Swift.String : Swift.Bool]
+  @discardableResult
+  @objc final public func stop() -> [Swift.String : Swift.Bool]
+  @discardableResult
+  @objc final public func stop(streamPosition: Swift.Int64) -> [Swift.String : Swift.Bool]
+  @discardableResult
+  @objc final public func skip() -> [Swift.String : Swift.Bool]
+  @discardableResult
+  @objc final public func volume(volume: Swift.String) -> [Swift.String : Swift.Bool]
+  @discardableResult
+  @objc final public func screen(screen: Swift.String) -> [Swift.String : Swift.Bool]
+  @objc deinit
+}
+public typealias CollectorTPCallback = (Swift.Bool) -> Swift.Void
+final public class MD5 {
+  public init()
+  final public func calculate(for bytes: Swift.Array<Swift.UInt8>) -> Swift.Array<Swift.UInt8>
+  @objc deinit
+}
+extension s2s_sdk_ios_agent_only.MD5 : s2s_sdk_ios_agent_only.Updatable {
+  final public func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool = false) throws -> Swift.Array<Swift.UInt8>
+}
+@available(*, renamed: "Digest")
+public typealias Hash = s2s_sdk_ios_agent_only.Digest
+public struct Digest {
+  public static func md5(_ bytes: Swift.Array<Swift.UInt8>) -> Swift.Array<Swift.UInt8>
+}
+public protocol Updatable {
+  mutating func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool) throws -> Swift.Array<Swift.UInt8>
+  mutating func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool, output: (_ bytes: Swift.Array<Swift.UInt8>) -> Swift.Void) throws
+}
+extension s2s_sdk_ios_agent_only.Updatable {
+  public mutating func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool = false, output: (_ bytes: Swift.Array<Swift.UInt8>) -> Swift.Void) throws
+  public mutating func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool = false) throws -> Swift.Array<Swift.UInt8>
+  public mutating func update(withBytes bytes: Swift.Array<Swift.UInt8>, isLast: Swift.Bool = false) throws -> Swift.Array<Swift.UInt8>
+  public mutating func update(withBytes bytes: Swift.Array<Swift.UInt8>, isLast: Swift.Bool = false, output: (_ bytes: Swift.Array<Swift.UInt8>) -> Swift.Void) throws
+  public mutating func finish(withBytes bytes: Swift.ArraySlice<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
+  public mutating func finish(withBytes bytes: Swift.Array<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
+  public mutating func finish() throws -> Swift.Array<Swift.UInt8>
+  public mutating func finish(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, output: (_ bytes: Swift.Array<Swift.UInt8>) -> Swift.Void) throws
+  public mutating func finish(withBytes bytes: Swift.Array<Swift.UInt8>, output: (_ bytes: Swift.Array<Swift.UInt8>) -> Swift.Void) throws
+  public mutating func finish(output: (Swift.Array<Swift.UInt8>) -> Swift.Void) throws
+}
+public class ContentMetadata {
+  public init(customParams: [Swift.String : Swift.String]?)
+  public func getContentId() -> Swift.String
+  public func getCustomParams() -> [Swift.String : Swift.String]?
+  public func getStreamStart() -> Swift.String
+  public func setContentId(contentId: Swift.String)
+  public func setStreamStart(streamStart: Swift.String)
+  public func setCustomParams(customParams: [Swift.String : Swift.String]?)
+  @objc deinit
+}
